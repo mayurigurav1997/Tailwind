@@ -1,0 +1,12 @@
+npm init
+npm install -D tailwindcss postcss autoprefixer
+npm install vite 
+npx tailwindcss init
+
+change below in package.json
+"scripts": {
+    "start": "vite"
+  }
+
+change below in tailwind.config.js
+ content: ["*"],
